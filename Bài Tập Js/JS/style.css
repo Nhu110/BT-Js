@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header li{
+    list-style: none;
+}
+.header .logo{
+    width: 15%;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+.header .logo a{
+    color: black;
+}
+.header .menu{
+    width: 50%;
+}
+.header .menu ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.header .menu ul li{
+    width: 15%;
+}
+
+.head{
+    border-bottom: 1px solid black;
+}
+
+.head .list ul{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head .list ul li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+}
+
+.head h2{
+    max-width: 500px;
+    font-weight: normal;
+    border-bottom: 3px solid black;
+    margin-left: 50px;
+}
+
+.mid{
+    width: 95%;
+    margin: 20px auto;
+}
+
+.mid .boder-p{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.mid .col-3 img{
+    width: 400px;
+}
+
+.mid .col-3 button{
+    padding: 10px;
+    border-radius: 7%;
+    margin-left: 275px;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.mid .col-6{
+    height: 830px;
+    background-image: url(./anh/hinh3.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.viewall{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.viewall button{
+    padding: 20px 30px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.addcart{
+    border-radius: 6px;
+    margin-left: 200px;
+    padding: 5px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.view{
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.cost{
+    font-weight: bold;
+}
+.listitem{
+    display: flex;
+    justify-content: space-between;
+}
+.listitem .left{
+    width: 55%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.listitem .right{
+    width: 41%;
+}
+.listitem .left .item{
+    width: 48%;
+}
+.listitem .right .item .image img{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.listitem .right .item .viewall{
+    position: relative;
+    text-align: center;
+    margin-top: -350px;
+}
+.listitem .item img{
+    width: 100%;
+}
